@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import SEO from "@/components/SEO";
+// import SEO from "@/components/SEO";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ProjectCard } from "@/components/ui/ProjectCard";
 import { ProjectModal } from "@/components/ui/ProjectModal";
@@ -172,12 +172,12 @@ export default function Projects() {
 
   return (
     <div className="pt-20">
-      <SEO
+      {/* <SEO
         title="Our Projects"
         description="View our portfolio of 500+ successful projects including highways, railways, wind farms, and industrial installations across India."
         canonical="/projects"
         keywords="infrastructure projects, highway construction, WTG projects, girder erection projects"
-      />
+      /> */}
       {/* Hero Banner */}
       <section className="relative py-16 md:py-24 lg:py-32">
         <div className="absolute inset-0 z-0">

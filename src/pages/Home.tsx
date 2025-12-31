@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import SEO from "@/components/SEO";
+// import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ServiceCard } from "@/components/ui/ServiceCard";
@@ -118,12 +118,12 @@ export default function Home() {
 
   return (
     <div className="overflow-hidden">
-      <SEO
-        title="Heavy Lifting & Crane Rental"
+      {/* <SEO
+        // title="Heavy Lifting & Crane Rental"
         description="India's premier crane rental and heavy lifting company. Specializing in WTG erection, girder installation with 2L+ tons erected and zero incidents."
         canonical="/"
         keywords="crane rental, heavy lifting, WTG erection, girder erection, crawler crane, infrastructure"
-      />
+      /> */}
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center pt-20 md:pt-24">
         {/* Background */}

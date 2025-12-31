@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import SEO from "@/components/SEO";
+// import SEO from "@/components/SEO";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CTASection } from "@/components/ui/CTASection";
 import { Badge } from "@/components/ui/badge";
@@ -192,11 +192,11 @@ export default function Gallery() {
 
   return (
     <>
-      <SEO
+      {/* <SEO
         title="Project Gallery | ALTECH Equipments"
         description="Explore our extensive project gallery showcasing crane operations, heavy lifting, and infrastructure projects across India."
         keywords="crane gallery, project photos, heavy lifting images, infrastructure gallery, ALTECH projects"
-      />
+      /> */}
 
       {/* Hero Section */}
       <section className="relative pt-24 pb-10 md:pt-32 md:pb-16 lg:pt-40 lg:pb-24 bg-gradient-to-br from-primary/10 via-background to-background">

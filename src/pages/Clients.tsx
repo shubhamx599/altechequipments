@@ -1,4 +1,4 @@
-import SEO from "@/components/SEO";
+// import SEO from "@/components/SEO";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ClientLogo } from "@/components/ui/ClientLogo";
 import { CTASection } from "@/components/ui/CTASection";
@@ -48,12 +48,12 @@ export default function Clients() {
 
   return (
     <div className="pt-20">
-      <SEO
+      {/* <SEO
         title="Our Clients"
         description="Trusted by India's leading infrastructure companies including L&T, Tata Projects, Afcons, and more. 50+ clients with 98% retention rate."
         canonical="/clients"
         keywords="crane rental clients, L&T partner, infrastructure partners, Tata Projects"
-      />
+      /> */}
       {/* Hero Banner */}
       <section className="relative py-16 md:py-24 lg:py-32">
         <div className="absolute inset-0 z-0">

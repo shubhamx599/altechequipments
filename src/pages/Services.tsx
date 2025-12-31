@@ -1,5 +1,5 @@
 import { useState } from "react";
-import SEO from "@/components/SEO";
+// import SEO from "@/components/SEO";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ServiceCard } from "@/components/ui/ServiceCard";
 import { CTASection } from "@/components/ui/CTASection";
@@ -119,12 +119,12 @@ export default function Services() {
 
   return (
     <div className="pt-20">
-      <SEO
+      {/* <SEO
         title="Our Services"
         description="Comprehensive heavy lifting services - WTG erection up to 168m, PSC/RCC/Steel girder installation, industrial lifting with capacities from 100T to 800T."
         canonical="/services"
         keywords="WTG erection, girder erection, heavy lifting services, crane services India"
-      />
+      /> */}
       {/* Hero Banner */}
       <section className="relative py-16 md:py-24 lg:py-32">
         <div className="absolute inset-0 z-0">

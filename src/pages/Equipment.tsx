@@ -1,4 +1,4 @@
-import SEO from "@/components/SEO";
+// import SEO from "@/components/SEO";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CTASection } from "@/components/ui/CTASection";
 import {
@@ -146,12 +146,12 @@ export default function Equipment() {
 
   return (
     <div className="pt-20">
-      <SEO
+      {/* <SEO
         title="Our Equipment Fleet"
         description="Explore our fleet of 10+ advanced crawler cranes from Zoomlion, Kobelco, and Hitachi with capacities from 100T to 800T for precision lifting."
         canonical="/equipment"
         keywords="crawler crane rental, Zoomlion crane, Kobelco crane, 800 ton crane, heavy equipment"
-      />
+      /> */}
       {/* Hero Banner */}
       <section className="relative py-16 md:py-24 lg:py-32">
         <div className="absolute inset-0 z-0">
